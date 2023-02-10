@@ -12,7 +12,7 @@ import { Proyecto } from '../../models/proyectos.model';
 })
 export class PortfolioComponent {
 
-  urlImagen: string = '../../../assets/images/';
+  urlImagen: string = '/assets/images/';
 
   proyectos: Proyecto[] = [
     {
