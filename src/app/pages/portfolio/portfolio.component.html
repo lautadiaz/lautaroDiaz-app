@@ -1,0 +1,14 @@
+<div class="contenedor-principal-portfolio">
+  <h1>Mis projectos</h1>
+
+  <div class="contenedor-card">
+    <div  *ngFor="let proyecto of proyectos">
+      <app-card [titulo]="proyecto.titulo"
+                [imagen]="proyecto.imagen"
+                [texto]="proyecto.texto"
+                [url]="proyecto.url"
+                [urlRepo]="proyecto.urlRepo">
+      </app-card>
+    </div>
+  </div>
+</div>

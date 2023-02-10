@@ -1,0 +1,72 @@
+.contenedor-home {
+  margin: 5% 20%;
+  background-color: #ffffff;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 37px;
+  }
+
+  .contenedor-secundario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    .imagen {
+      text-align: center;
+      img {
+        width: 90%;
+        border-radius: 100px;
+      }
+    }
+    .informacion {
+      margin-top: 25%;
+
+      span {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      h3 {
+        margin: 15px 0;
+        font-size: 40px;
+      }
+      p {
+        color: #5d5d5d;
+      }
+      ul {
+        margin-top: 40px;
+        padding: 0;
+        list-style: none;
+        font-size: 18px;
+        color: #5d5d5d;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        li {
+          display: flex;
+          gap: 15px;
+        }
+      }
+      .contacto {
+        margin-top: 40px;
+        font-size: 35px;
+        display: flex;
+        gap: 25px;
+        a {
+          color: #5d5d5d;
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            scale: 1.4;
+          }
+        }
+      }
+    }
+  }
+}
