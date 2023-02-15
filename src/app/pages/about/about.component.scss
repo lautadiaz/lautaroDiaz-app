@@ -2,31 +2,26 @@
   margin: auto 12%;
   background-color: #ffffff;
   display: flex;
-  gap: 30px;
+  gap: 10px;
   flex-direction: column;
   align-items: center;
-
   h1 {
-    padding-top: 20px;
+    margin: 10px 0;
+    padding-top: 10px;
     font-size: 35px;
   }
-
   .resumen {
-    max-width: 90%;
     font-size: 18px;
   }
-
   .contenido {
-    // margin-top: 30px;
     padding: 5px 15px;
     background-color: #dedede;
-    max-width: 90%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     border: 2px solid #dedede;
     border-radius: 10px;
     transition: all 0.8s ease-in-out;
-
     img {
       max-width: 120px;
       max-height: 120px;
@@ -77,6 +72,21 @@
       border: 2px solid #d72929;
     }
   }
+}
+@media screen and (min-width: 768px) {
+  .contenedor-principal-about {
+    gap: 30px;
 
-
+    h1 {
+      margin: 25px 0;
+      padding-top: 20px;
+    }
+    .resumen {
+      max-width: 90%;
+    }
+    .contenido {
+      max-width: 90%;
+      flex-direction: row;
+    }
+  }
 }

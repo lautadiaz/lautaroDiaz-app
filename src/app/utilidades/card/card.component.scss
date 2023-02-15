@@ -27,11 +27,12 @@
       font-weight: bold;
     }
     .link1 {
-      width: 25%;
       color: #d60a36;
+      padding: 0 5px;
       background-color: #ffffff;
       border: 1px solid #d60a36;
       border-radius: 50px;
+      gap: 5px;
 
       &:hover {
         color: #ffffff;
@@ -41,11 +42,12 @@
       }
     }
     .link2 {
-      width: 15%;
       color: #0acfd6;
+      padding: 0 8px;
       background-color: #ffffff;
       border: 1px solid #0acfd6;
       border-radius: 50px;
+      gap: 5px;
 
       &:hover {
         color: #ffffff;
